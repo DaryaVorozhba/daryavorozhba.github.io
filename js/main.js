@@ -1,3 +1,6 @@
-import {objects} from'./data.js';
+import './data.js';
+import './pictures.js';
+import './util.js';
 
-window.console.log(objects);
+import {objects} from './data.js';
+window.console.log(objects());

@@ -63,6 +63,6 @@ const createObject = () => ({
   )
 });
 
-const objects = Array.from({ length: GENERATED_PHOTO_COUNT }, createObject);
+const objects = () => Array.from({ length: GENERATED_PHOTO_COUNT }, createObject);
 
 export {objects};

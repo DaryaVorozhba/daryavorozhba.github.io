@@ -17,4 +17,6 @@ const getSerialNumber = () => {
   };
 };
 
-export {getRandomArrayElement, getSerialNumber, getRandomInteger};
+const isEscapeKey = (evt) => evt.key === 'Escape';
+
+export {getRandomArrayElement, getSerialNumber, getRandomInteger, isEscapeKey};
